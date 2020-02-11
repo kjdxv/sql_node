@@ -345,7 +345,7 @@ SELECT * FROM student;
 SELECT name, sex, class FROM student;
 
 -- 查询 teacher 表中不重复的 department 列
--- department: 去重查询
+-- distinct: 去重查询
 SELECT DISTINCT department FROM teacher;
 
 -- 查询 score 表中成绩在60-80之间的所有行（区间查询和运算符查询）
